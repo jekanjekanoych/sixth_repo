@@ -1,0 +1,12 @@
+<form action="/teachers/" method="get">
+
+{% for t in teachers %}
+{{ t.first_name }}
+{{ t.last_name }}
+{{ t.age }}
+{{ t.id }} <br>
+
+{% endfor %}
+</form>
+
+
